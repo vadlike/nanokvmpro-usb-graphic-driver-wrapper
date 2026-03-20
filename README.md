@@ -2,14 +2,14 @@
 
 [![Download Latest Release](https://img.shields.io/badge/Download-Latest%20Release-2ea44f?style=for-the-badge)](https://github.com/vadlike/nanokvmpro-usb-graphic-driver-wrapper/releases/latest)
 
-![](https://github-visitor-counter-tau.vercel.app/api?username=vadlike&repo=nanokvmpro-usb-graphic-driver-wrapper&displayMode=topCountries&theme=github)
-
 NanoKVM Pro is a compact IP-KVM for remote computer access with BIOS-level control, low-latency video streaming, and network-based keyboard and mouse control.
 
 This repository provides a ready-to-use Windows driver package and helper tool for installing and removing the NanoKVMPro USB Graphic driver.
 
 Latest release:
 `https://github.com/vadlike/nanokvmpro-usb-graphic-driver-wrapper/releases/latest`
+
+[![Star History Chart](https://api.star-history.com/svg?repos=vadlike/nanokvmpro-usb-graphic-driver-wrapper&type=Date)](https://star-history.com/#vadlike/nanokvmpro-usb-graphic-driver-wrapper&Date)
 
 ![NanoKVM Pro](assets/nanokvm-pro.png)
 
