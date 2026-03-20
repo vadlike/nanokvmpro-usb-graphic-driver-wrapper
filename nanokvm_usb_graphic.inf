@@ -1,0 +1,79 @@
+;
+; idd nanokvm usb graphic inf
+;
+
+[Version]
+PnpLockdown=1
+Signature="$Windows NT$"
+ClassGUID = {4D36E968-E325-11CE-BFC1-08002BE10318}
+Class = Display
+ClassVer = 2.0
+Provider=%ManufacturerName%
+CatalogFile=nanokvm_usb_graphic.cat
+DriverVer = 07/22/2025,1.2.25.2
+
+[Manufacturer]
+%ManufacturerName%=Standard,NTamd64
+
+[Standard.NTamd64]
+%DeviceName%=MyDevice_Install, USB\VID_3346&PID_1009
+%DeviceName%=MyDevice_Install, USB\VID_3346&PID_1009&MI_00
+
+[SourceDisksFiles]
+nanokvm_usb_graphic.dll=1
+
+[SourceDisksNames]
+1 = %DiskName%
+
+; =================== UMDF Device ==================================
+
+[MyDevice_Install.NT]
+CopyFiles=UMDriverCopy
+
+[MyDevice_Install.NT.hw]
+AddReg = MyDevice_HardwareDeviceSettings
+
+[MyDevice_HardwareDeviceSettings]
+HKR,, "UpperFilters",  %REG_MULTI_SZ%, "IndirectKmd"
+HKR, "WUDF", "DeviceGroupId", %REG_SZ%, "IddEsp32xDriverGroup" ; TODO: edit driver group name, see README.md for more info
+
+[MyDevice_Install.NT.Services]
+AddService=WUDFRd,0x000001fa,WUDFRD_ServiceInstall
+
+[MyDevice_Install.NT.Wdf]
+UmdfDispatcher=NativeUSB
+UmdfService=nanokvm_usb_graphic,nanokvm_usb_graphic_Install
+UmdfServiceOrder=nanokvm_usb_graphic
+UmdfKernelModeClientPolicy = AllowKernelModeClients
+
+[nanokvm_usb_graphic_Install]
+UmdfLibraryVersion=2.25.0 
+ServiceBinary=%12%\UMDF\nanokvm_usb_graphic.dll
+UmdfExtensions = IddCx0102
+
+[WUDFRD_ServiceInstall]
+DisplayName = %WudfRdDisplayName%
+ServiceType = 1
+StartType = 3
+ErrorControl = 1
+ServiceBinary = %12%\WUDFRd.sys
+
+[DestinationDirs]
+UMDriverCopy=12,UMDF ; copy to drivers\umdf
+
+[UMDriverCopy]
+nanokvm_usb_graphic.dll
+
+; =================== Generic ==================================
+
+[Strings]
+ManufacturerName="sipeed" ; TODO: Replace with your manufacturer name
+DiskName = "NanoKVMPro USB Graphic Installation Disk" ; TODO: Replace with driver disk name
+WudfRdDisplayName="Windows Driver Foundation - User-mode Driver Framework Reflector"
+DeviceName="NanoKVMPro USB Graphic" ; TODO: Replace with correct device name
+
+REG_MULTI_SZ  = 0x00010000
+REG_SZ        = 0x00000000
+REG_EXPAND_SZ = 0x00020000
+REG_DWORD     = 0x00010001
+
