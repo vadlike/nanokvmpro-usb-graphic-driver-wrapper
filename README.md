@@ -1,6 +1,7 @@
 # NanoKVMPro USB Graphic Driver Wrapper
 
 [![Download Latest Release](https://img.shields.io/badge/Download-Latest%20Release-2ea44f?style=for-the-badge)](https://github.com/vadlike/nanokvmpro-usb-graphic-driver-wrapper/releases/latest)
+[![No Testsigning Mode](https://img.shields.io/badge/No_bcdedit_%2Fset_testsigning_on-needed-red?style=for-the-badge)](https://github.com/vadlike/nanokvmpro-usb-graphic-driver-wrapper/releases/latest)
 
 Modified Windows driver package for NanoKVM Pro with a simple installer menu.
 
@@ -10,8 +11,11 @@ Author: [vadlike](https://github.com/vadlike)
 
 ## Quick Start
 
-Download the latest release:
-`https://github.com/vadlike/nanokvmpro-usb-graphic-driver-wrapper/releases/latest`
+Download the latest release:  
+[Latest Release](https://github.com/vadlike/nanokvmpro-usb-graphic-driver-wrapper/releases/latest)
+
+Official driver:  
+[Sipeed Official Driver v1.0.5](https://github.com/sipeed/NanoKVM-Pro/releases/download/v1.0.5/nanokvmpro_usb_graphic_win.zip)
 
 Run:
 
@@ -25,6 +29,12 @@ Menu actions:
 - `2` install the driver with UAC elevation
 - `3` remove the driver with UAC elevation
 - `4` export the current signer certificate
+
+## Driver Tool
+
+`bcdedit /set testsigning on` is **not required**.
+
+![driver-tool.cmd screenshot](assets/driver-tool-cmd.png)
 
 ## Why Use This Package
 
