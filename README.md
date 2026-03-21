@@ -83,6 +83,3 @@ Changes in this wrapper package:
 Image source: Sipeed Wiki  
 https://wiki.sipeed.com/hardware/en/kvm/NanoKVM_Pro/introduction.html
 
-## Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=vadlike/nanokvmpro-usb-graphic-driver-wrapper&type=Date)](https://star-history.com/#vadlike/nanokvmpro-usb-graphic-driver-wrapper&Date)
