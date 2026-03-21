@@ -1,6 +1,4 @@
-# NanoKVMPro USB Graphic Driver Wrapper  ![visitors](https://visitor-badge.laobi.icu/badge?page_id=vadlike.nanokvmpro-usb-graphic-driver-wrapper
-)
-
+# NanoKVMPro USB Graphic Driver Wrapper ![visitors](https://visitor-badge.laobi.icu/badge?page_id=vadlike.nanokvmpro-usb-graphic-driver-wrapper)
 [![Download Latest Release](https://img.shields.io/badge/Download-Latest%20Release-2ea44f?style=for-the-badge)](https://github.com/vadlike/nanokvmpro-usb-graphic-driver-wrapper/releases/latest)
 [![No Testsigning Mode](https://img.shields.io/badge/No_bcdedit_%2Fset_testsigning_on-needed-red?style=for-the-badge)](https://github.com/vadlike/nanokvmpro-usb-graphic-driver-wrapper/releases/latest)
 
