@@ -1,18 +1,16 @@
-# NanoKVMPro USB Graphic Driver Wrapper
+<h1 align="left">NanoKVMPro USB Graphic Driver Wrapper</h1>
 
-<p align="center">
-  <img src="https://visitor-badge.laobi.icu/badge?page_id=vadlike.nanokvmpro-usb-graphic-driver-wrapper" alt="visitors">
-  <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="license MIT">
-  <img src="https://img.shields.io/github/last-commit/vadlike/nanokvmpro-usb-graphic-driver-wrapper" alt="last commit">
+<p align="left">
   <a href="https://github.com/vadlike/nanokvmpro-usb-graphic-driver-wrapper/releases/latest">
-    <img src="https://img.shields.io/badge/Download-Latest%20Release-2ea44f?style=for-the-badge" alt="Download Latest Release">
+    <img src="https://img.shields.io/github/v/release/vadlike/nanokvmpro-usb-graphic-driver-wrapper?label=latest%20release" alt="Latest Release">
   </a>
-  <a href="https://github.com/vadlike/nanokvmpro-usb-graphic-driver-wrapper/releases/latest">
-    <img src="https://img.shields.io/badge/No_bcdedit_%2Fset_testsigning_on-needed-red?style=for-the-badge" alt="No Testsigning Mode">
-  </a>
+  <img src="https://img.shields.io/github/license/vadlike/nanokvmpro-usb-graphic-driver-wrapper" alt="License">
+  <img src="https://img.shields.io/github/last-commit/vadlike/nanokvmpro-usb-graphic-driver-wrapper" alt="Last Commit">
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=vadlike.nanokvmpro-usb-graphic-driver-wrapper" alt="Visitors">
   <a href="https://wiki.sipeed.com/hardware/en/kvm/NanoKVM_Pro/introduction.html">
-    <img src="https://img.shields.io/badge/NanoKVM%20Pro-Official%20Device%20Page-red" alt="NanoKVM Pro device">
+    <img src="https://img.shields.io/badge/device-NanoKVM%20Pro-red" alt="NanoKVM Pro">
   </a>
+  <img src="https://img.shields.io/badge/testsigning-not_required-brightgreen" alt="Testsigning Not Required">
 </p>
 
 Modified Windows driver package for NanoKVM Pro with a simple installer menu.
