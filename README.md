@@ -10,7 +10,7 @@
   <a href="https://wiki.sipeed.com/hardware/en/kvm/NanoKVM_Pro/introduction.html">
     <img src="https://img.shields.io/badge/device-NanoKVM%20Pro-red" alt="NanoKVM Pro">
   </a>
-  <img src="https://img.shields.io/badge/testsigning-not_required-brightgreen" alt="Testsigning Not Required">
+  <img src="https://img.shields.io/badge/testsigning-not_required-brightgreen" alt="No Testsigning Mode">
 </p>
 
 Modified Windows driver package for NanoKVM Pro with a simple installer menu.
