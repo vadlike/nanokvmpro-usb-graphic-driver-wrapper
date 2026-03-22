@@ -16,7 +16,7 @@ Modified Windows driver package for NanoKVM Pro with a simple installer menu.
 
 This repository provides a ready-to-use package for installing and removing the NanoKVM Pro USB Graphic driver on Windows.
 
-Author: [vadlike](https://github.com/vadlike)
+
 
 ## Quick Start
 
