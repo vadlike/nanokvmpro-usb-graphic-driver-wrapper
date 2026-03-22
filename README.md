@@ -4,7 +4,6 @@
   <a href="https://github.com/vadlike/nanokvmpro-usb-graphic-driver-wrapper/releases/latest">
     <img src="https://img.shields.io/github/v/release/vadlike/nanokvmpro-usb-graphic-driver-wrapper?label=latest%20release" alt="Latest Release">
   </a>
-  <img src="https://img.shields.io/github/license/vadlike/nanokvmpro-usb-graphic-driver-wrapper" alt="License">
   <img src="https://img.shields.io/github/last-commit/vadlike/nanokvmpro-usb-graphic-driver-wrapper" alt="Last Commit">
   <img src="https://visitor-badge.laobi.icu/badge?page_id=vadlike.nanokvmpro-usb-graphic-driver-wrapper" alt="Visitors">
   <a href="https://wiki.sipeed.com/hardware/en/kvm/NanoKVM_Pro/introduction.html">
